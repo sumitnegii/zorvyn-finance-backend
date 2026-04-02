@@ -20,11 +20,7 @@ const allowedOrigins = [
 
 app.use(
   cors({
-    origin: (origin, callback) => {
-      // Allow non-browser tools (Postman, curl) and whitelisted origins
-      if (!origin || allowedOrigins.includes(origin)) return callback(null, true);
-      callback(new Error(`CORS: origin ${origin} not allowed`));
-    },
+    origin: true, // Reflects the request origin, allowing any domain to access
     credentials: true,
   })
 );
