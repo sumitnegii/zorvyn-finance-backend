@@ -37,7 +37,7 @@ This is a **Finance Data Processing and Access Control** system. It helps organi
 2. Install dependencies: `npm install`
 3. Start the app: `npm run dev`
    - The app will now communicate with the **live Render backend** (configured in `.env.local`).
-   - Open your browser at: `http://localhost:3000`
+   - Open your browser at: `https://zorvyn-finance-backend-seven.vercel.app/`
 
 ---
 
