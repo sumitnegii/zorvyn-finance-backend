@@ -28,14 +28,15 @@ This is a **Finance Data Processing and Access Control** system. It helps organi
 ### 1. Backend Setup
 1. Go to the `backend` folder: `cd backend`
 2. Install dependencies: `npm install`
-3. Start the server: `npm run dev`
-   - The API will be available at: `http://localhost:4000/api`
-   - Default Port: `4000` (can be changed in .env)
+3. Start the server: `npm install && npm start`
+   - The **Live API** is available at: `https://zorvyn-finance-backend-2.onrender.com/api`
+   - During local development, it runs on port `4000`.
 
 ### 2. Frontend Setup
 1. Go to the `frontend` folder: `cd frontend`
 2. Install dependencies: `npm install`
 3. Start the app: `npm run dev`
+   - The app will now communicate with the **live Render backend** (configured in `.env.local`).
    - Open your browser at: `http://localhost:3000`
 
 ---
