@@ -2,6 +2,7 @@
 **Name**: Sumit Negi  
 **Email**: negisumit308@gmail.com  
 **Role**: Backend Developer Intern (Internship Assignment)
+
 **Note**: for frontend i use ai help to design page and for styling for backend i design first database model, and create api/routes i use ai help to check logs and where i was struggling, rest backend is design by me itself
 i use node js and express , mongo beacuse i used this in my  prior internship and have foundation knowledge of mern
 although i am comfortable to work with java and spring boot.... 
